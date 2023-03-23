@@ -207,6 +207,6 @@ function spendMoneyOnQz() {
 
 function showingAllPhotos() {
   if(localStorage.getItem('unlockAllPhotos') == "true"){
-    document.querySelector(".faceImg").style.opacity = 1;
+    document.querySelectorAll(".faceImg").style.opacity = 1;
   }
 }
